@@ -1,0 +1,201 @@
+
+.navbar{
+    background-color: indigo;
+    overflow: hidden;
+}
+
+.navbar a{
+    color: gold;
+    padding: 14px 32px;
+    font-size: 18px;
+    float: left;
+    text-align: center;
+    text-decoration: none;
+}
+
+.navbar a:hover{
+    background-color: black;
+    color: white;
+}
+
+.navbar a.active{
+    background-color: crimson;
+    color: antiquewhite;
+}
+
+.social{
+    float: right;
+    padding-right: 60px;
+}
+
+.social p{
+    opacity: 80%;
+}
+
+.hr{
+    display: grid;
+    max-width: 960px;
+    width: 120px;
+    background-color: chocolate;
+}
+
+#expect{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.wapGrid{
+    display: grid;
+    max-width: 100%;
+    grid-template-columns: repeat(5,1fr);
+    grid-auto-rows: 100px;
+    grid-gap: 5px;
+    background: linear-gradient(rgb(223,245,255),rgb(132,187,250));
+}
+
+#wapHead{
+grid-column: 1/6;
+grid-row: 1/2;
+font-size: 50px;
+
+}
+
+#wapImg{
+    padding-left: 20px;
+grid-column: 1/5;
+grid-row: 2/4; 
+
+}
+
+#wapOverview{
+    grid-column: 3/6;
+    grid-row: 2/4;
+    border-radius: 50px;
+    border: 2px solid black; 
+    padding-left: 5px;
+    box-shadow:  black 5px 5px;
+    background: linear-gradient(rgb(92, 1, 92),blue);
+    color: aliceblue;
+}
+
+
+
+#csArch{
+   grid-column: 1/6;
+   grid-row: 5/6; 
+   padding-bottom: 30px;
+   border-radius: 40px;
+    border: 2px solid black;
+    padding-left: 10px; 
+    box-shadow:  black 5px 5px;
+    background: linear-gradient(rgb(92, 1, 92),blue);
+    color: aliceblue;
+}
+
+
+#siArch{
+  grid-column: 1/6;
+  grid-row: 7/8;  
+  border-radius: 40px;
+    border: 2px solid black; 
+    padding-left: 10px;
+    box-shadow:  black 5px 5px;
+    background: linear-gradient(rgb(92, 1, 92),blue);
+    color: aliceblue;
+}
+
+#twoArch{
+    grid-column: 1/6;
+    grid-row: 9/10;
+    border-radius: 40px;
+    border: 2px solid black; 
+    padding-left: 10px;
+    box-shadow:  black 5px 5px;
+    background: linear-gradient(rgb(92, 1, 92),blue);
+    color: aliceblue;
+}
+
+#threeArch{
+    grid-column: 1/6;
+    grid-row: 11/12;
+    border-radius: 40px;
+    border: 2px solid black; 
+    padding-left: 10px;
+    box-shadow: black  5px 5px;
+    background: linear-gradient(rgb(92, 1, 92),blue);
+    color: aliceblue;
+}
+
+#microArch{
+    grid-column: 1/6;
+    grid-row: 13/14;
+    border-radius: 40px;
+    border: 2px solid black; 
+    padding-left: 10px;
+    box-shadow: black 5px 5px;
+    background: linear-gradient(rgb(92, 1, 92),blue);
+    color: aliceblue;
+}
+
+#monoArch{
+    grid-column: 1/6;
+    grid-row: 15/16;
+    border-radius: 40px;
+    border: 2px solid black; 
+    padding-left: 10px;
+    box-shadow:  black 5px 5px;
+    background: linear-gradient(rgb(92, 1, 92),blue);
+    color: aliceblue;
+}
+
+.info{
+ word-wrap: 200px;   
+}
+
+.cssseContainer{
+    display: grid;
+    max-width: 100%;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap: 10px;
+    grid-auto-rows: 100px;
+    background: linear-gradient(rgb(223,245,255),rgb(132,187,250));
+}
+
+
+
+#imgContain{
+    grid-column: 3/5;
+    grid-row: 1/4; 
+}
+
+
+
+#cssseHeading{
+   padding-left: 30px;
+    grid-column: 1/3;
+    grid-row: 2/3;
+    font-size: 50px;
+}
+
+.cssseClient{
+grid-column: 1/3;
+border: 1px  black;
+grid-row: 4/12;
+background: linear-gradient(blue,rgb(94, 94, 253),rgb(209, 207, 207));
+border-radius: 30px;
+border-style: outset;
+}
+
+.cssseServer{
+    padding-left: 5px;
+    grid-column: 3/5;
+    border: 1px  black;
+    grid-row: 4/12;
+    background: linear-gradient(purple,fuchsia,white);
+    border-radius: 30px;
+    border-style: inset;
+}
+
+.ClientPara{
+    font-family: Arial, Helvetica, sans-serif;
+}
